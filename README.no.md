@@ -7,10 +7,7 @@
 Fullstack-utvikler fra Porsgrunn. Har programmert siden desember 2024, går nå Vg2 IT.
 Akkurat nå finpusser jeg grunnlaget — arkitektur, Python, C++ — på vei mot **ML engineering**.
 
-```text
-nå         fullstack web · desktop-verktøy
-neste      maskinlæring (ML engineering)
-```
+<code>NÅ</code> fullstack web · desktop-verktøy &nbsp;·&nbsp; <code>NESTE</code> maskinlæring (ML engineering)
 
 <p align="center"><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
 

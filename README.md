@@ -7,10 +7,7 @@
 Fullstack developer from Porsgrunn, Norway. Writing code since December 2024, now a Vg2 IT student.
 Right now I'm sharpening the fundamentals — architecture, Python, C++ — on the way to **ML engineering**.
 
-```text
-now        fullstack web · desktop tools
-next       machine learning engineering
-```
+<code>NOW</code> fullstack web · desktop tools &nbsp;·&nbsp; <code>NEXT</code> machine learning engineering
 
 <p align="center"><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
 
