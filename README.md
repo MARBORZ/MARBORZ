@@ -1,29 +1,30 @@
 <div align="center">
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"><img alt="Fullstack developer. Vg2 IT student. Next: ML engineering." src="assets/hero-dark.svg" width="100%"></picture>
+
 <sub><code>MARBORZ</code> · <b>English</b> · <a href="README.no.md">Norsk</a></sub>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"><img alt="Amadi Masuev — fullstack, on the way to ML engineering" src="assets/banner-dark.svg" width="100%"></picture>
+<p>Writing code since December 2024. Right now I'm sharpening the fundamentals — architecture, Python, C++ — on the way to <b>ML engineering</b>.</p>
 
-Fullstack developer from Porsgrunn, Norway. Writing code since December 2024, now a Vg2 IT student.
-Right now I'm sharpening the fundamentals — architecture, Python, C++ — on the way to **ML engineering**.
+<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git" width="100%">
 
-<code>NOW</code> fullstack web · desktop tools &nbsp;·&nbsp; <code>NEXT</code> machine learning engineering
-
-<p align="center"><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
+<br><br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg"><img alt="Languages across public repos" src="assets/languages-dark.svg" width="100%"></picture>
 
-**Selected work**
+<br><br>
 
-| Project | What | Stack | Live |
-|:--|:--|:--|:--|
-| [**omioroom**](https://github.com/MARBORZ/omioroom) | Watch parties for 2–32 people, video in sync | <sub><code>React · Supabase Realtime</code></sub> | [omioroom.live](https://www.omioroom.live) |
-| [**lecture-studio**](https://github.com/MARBORZ/lecture-studio) | Turns recorded lectures into study material | <sub><code>FastAPI · Faster-Whisper · React</code></sub> | desktop app |
-| [**velnote**](https://github.com/MARBORZ/velnote) | Markdown notes with tags and auth | <sub><code>React · Express · PostgreSQL</code></sub> | [velnote](https://velnote-two.vercel.app) |
-| [**maskin-anlegg-as**](https://github.com/MARBORZ/maskin-anlegg-as) | Client site, MK Maskin & Anlegg AS | <sub><code>Next.js · Motion · Resend</code></sub> | [mkmaskin.no](https://mkmaskin.no) |
-| [**redbeardvfx**](https://github.com/MARBORZ/redbeardvfx) | Client portfolio for a VFX supervisor | <sub><code>React · Vite · FSD</code></sub> | [redbeardvfx.work](https://redbeardvfx.work) |
-| [**death-trip-site**](https://github.com/MARBORZ/death-trip-site) | Dark-aesthetic site, built in a team of two | <sub><code>React · Motion · Lenis</code></sub> | [hdufndsk.site](https://hdufndsk.site) |
+<sub><code>SELECTED WORK</code></sub>
 
-<sub><code>PORTFOLIO</code> [marborz.one](https://www.marborz.one) · <code>MAIL</code> [masuevamadi@marborz.one](mailto:masuevamadi@marborz.one)</sub>
+<a href="https://github.com/MARBORZ/omioroom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-01-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-01-light.svg"><img alt="/01 omioroom" src="assets/project-01-dark.svg" width="100%"></picture></a>
+<a href="https://github.com/MARBORZ/lecture-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-02-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-02-light.svg"><img alt="/02 lecture-studio" src="assets/project-02-dark.svg" width="100%"></picture></a>
+<a href="https://github.com/MARBORZ/velnote"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-03-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-03-light.svg"><img alt="/03 velnote" src="assets/project-03-dark.svg" width="100%"></picture></a>
+<a href="https://github.com/MARBORZ/maskin-anlegg-as"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-04-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-04-light.svg"><img alt="/04 maskin-anlegg-as" src="assets/project-04-dark.svg" width="100%"></picture></a>
+<a href="https://github.com/MARBORZ/redbeardvfx"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-05-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-05-light.svg"><img alt="/05 redbeardvfx" src="assets/project-05-dark.svg" width="100%"></picture></a>
+<a href="https://github.com/MARBORZ/death-trip-site"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-06-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/project-06-light.svg"><img alt="/06 death-trip-site" src="assets/project-06-dark.svg" width="100%"></picture></a>
+
+<br><br>
+
+<sub><code>PORTFOLIO</code> <a href="https://www.marborz.one">marborz.one</a> · <code>MAIL</code> <a href="mailto:masuevamadi@marborz.one">masuevamadi@marborz.one</a></sub>
 
 </div>
