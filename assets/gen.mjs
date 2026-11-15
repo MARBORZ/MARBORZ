@@ -18,7 +18,7 @@ const projects=[
 ['redbeardvfx','Portfolio for a VFX artist.','Portefølje for VFX-kunstner.','React · Vite · FSD','client'],
 ['death-trip-site','Moody site, built in a team.','Mørk side, laget i team.','React · Motion','live'],
 ];
-const intro={en:['Writing code since December 2024. Right now sharpening the fundamentals -','architecture, Python, C++ - on the way to ML engineering.'],no:['Har programmert siden desember 2024. Nå finpusser jeg grunnlaget -','arkitektur, Python, C++ - på vei mot ML engineering.']};
+const intro={en:['Writing code since December 2024. Now sharpening the fundamentals:','architecture, Python and C++, on the way to ML engineering.'],no:['Har programmert siden desember 2024. Nå finpusser jeg grunnlaget:','arkitektur, Python og C++, på vei mot ML engineering.']};
 const hero={en:['Fullstack developer.','Vg2 IT student.','Next: ML engineering.'],no:['Fullstack-utvikler.','Vg2 IT-elev.','Neste: ML engineering.']};
 for(const [k,c] of Object.entries(T)){
  for(const lang of ['en','no']){
