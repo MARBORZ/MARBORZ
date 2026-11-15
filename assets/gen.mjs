@@ -36,8 +36,8 @@ for(const [k,c] of Object.entries(T)){
 <text x="48" y="53" class="i" font-size="30" letter-spacing="-.6" fill="${c.text}">${n}</text>
 <text x="420" y="53" class="s" font-size="26" fill="${c.muted}">${esc(lang==='en'?en:no)}</text>
 <text x="1020" y="50" class="m" font-size="11" fill="${c.muted}" text-anchor="end">${st.toUpperCase()}</text>
-<rect x="1046" y="31" width="${status.length*8.6+22}" height="26" rx="13" fill="none" stroke="${c.line}"/>
-<text x="${1057}" y="49" class="m" font-size="11" fill="${c.text}">${status.toUpperCase()}</text>
+<rect x="1046" y="31" width="${status.length*7.5+20}" height="26" rx="13" fill="none" stroke="${c.line}"/>
+<text x="${1046+(status.length*7.5+20)/2+0.44}" y="48.5" class="m" font-size="11" fill="${c.text}" text-anchor="middle">${status.toUpperCase()}</text>
 <text x="${W}" y="51" class="m" font-size="16" fill="${c.text}" text-anchor="end">→</text>
 <line x1="0" y1="83.5" x2="${W}" y2="83.5" stroke="${c.line}"/>`));
   });

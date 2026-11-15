@@ -4,7 +4,7 @@
 <text x="48" y="53" class="i" font-size="30" letter-spacing="-.6" fill="#0a0a0a">omioroom</text>
 <text x="420" y="53" class="s" font-size="26" fill="#6b6b68">Watch party, i synk.</text>
 <text x="1020" y="50" class="m" font-size="11" fill="#6b6b68" text-anchor="end">REACT · SUPABASE</text>
-<rect x="1046" y="31" width="56.4" height="26" rx="13" fill="none" stroke="rgba(10,10,10,.16)"/>
-<text x="1057" y="49" class="m" font-size="11" fill="#0a0a0a">LIVE</text>
+<rect x="1046" y="31" width="50" height="26" rx="13" fill="none" stroke="rgba(10,10,10,.16)"/>
+<text x="1071.44" y="48.5" class="m" font-size="11" fill="#0a0a0a" text-anchor="middle">LIVE</text>
 <text x="1200" y="51" class="m" font-size="16" fill="#0a0a0a" text-anchor="end">→</text>
 <line x1="0" y1="83.5" x2="1200" y2="83.5" stroke="rgba(10,10,10,.16)"/></svg>
