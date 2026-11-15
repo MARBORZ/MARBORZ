@@ -1,3 +1,5 @@
+<div align="center">
+
 <sub><code>MARBORZ</code> · <b>English</b> · <a href="README.no.md">Norsk</a></sub>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"><img alt="Amadi Masuev — fullstack, on the way to ML engineering" src="assets/banner-dark.svg" width="100%"></picture>
@@ -10,7 +12,7 @@ now        fullstack web · desktop tools
 next       machine learning engineering
 ```
 
-<p><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg"><img alt="Languages across public repos" src="assets/languages-dark.svg" width="100%"></picture>
 
@@ -26,3 +28,5 @@ next       machine learning engineering
 | [**death-trip-site**](https://github.com/MARBORZ/death-trip-site) | Dark-aesthetic site, built in a team of two | <sub><code>React · Motion · Lenis</code></sub> | [hdufndsk.site](https://hdufndsk.site) |
 
 <sub><code>PORTFOLIO</code> [marborz.one](https://www.marborz.one) · <code>MAIL</code> [masuevamadi@marborz.one](mailto:masuevamadi@marborz.one)</sub>
+
+</div>
