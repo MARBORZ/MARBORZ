@@ -18,19 +18,22 @@ const projects=[
 ['redbeardvfx','Portfolio for a VFX artist.','Portefølje for VFX-kunstner.','React · Vite · FSD','client'],
 ['death-trip-site','Moody site, built in a team.','Mørk side, laget i team.','React · Motion','live'],
 ];
+const intro={en:['Writing code since December 2024. Right now sharpening the fundamentals —','architecture, Python, C++ — on the way to ML engineering.'],no:['Har programmert siden desember 2024. Nå finpusser jeg grunnlaget —','arkitektur, Python, C++ — på vei mot ML engineering.']};
 const hero={en:['Fullstack developer.','Vg2 IT student.','Next: ML engineering.'],no:['Fullstack-utvikler.','Vg2 IT-elev.','Neste: ML engineering.']};
 for(const [k,c] of Object.entries(T)){
  for(const lang of ['en','no']){
   const sfx=lang==='en'?k:`${k}-no`;
   const [l1,l2,l3]=hero[lang];
-  writeFileSync(`assets/hero-${sfx}.svg`,svg(300,`
+  writeFileSync(`assets/hero-${sfx}.svg`,svg(400,`
 <text x="0" y="22" class="m" font-size="13" fill="${c.muted}">000 / ${lang==='en'?'PROFILE':'PROFIL'}</text>
 <text x="${W}" y="22" class="m" font-size="13" fill="${c.muted}" text-anchor="end">PORSGRUNN, 59.14°N · ${year}</text>
-<g class="i" font-size="68" letter-spacing="-2.4" fill="${c.text}"><text x="-3" y="128">${l1}</text><text x="-3" y="202" fill="${c.muted}">${l2}</text><text x="-3" y="276" fill="${c.muted}">${l3}</text></g>`));
+<g class="i" font-size="68" letter-spacing="-2.4" fill="${c.text}"><text x="-3" y="128">${l1}</text><text x="-3" y="202" fill="${c.muted}">${l2}</text><text x="-3" y="276" fill="${c.muted}">${l3}</text></g>
+<g class="i" font-size="20" fill="${c.muted}"><text x="0" y="340">${intro[lang][0]}</text><text x="0" y="370">${intro[lang][1]}</text></g>`));
+  writeFileSync(`assets/work-${sfx}.svg`,svg(60,`<text x="0" y="34" class="m" font-size="12" letter-spacing="2" fill="${c.muted}">${lang==='en'?'SELECTED WORK':'UTVALGTE PROSJEKTER'}</text><text x="${W}" y="34" class="m" font-size="12" fill="${c.muted}" text-anchor="end">06</text><line x1="0" y1="59.5" x2="${W}" y2="59.5" stroke="${c.line}"/>`));
   projects.forEach(([n,en,no,st,status],i)=>{
    writeFileSync(`assets/project-${String(i+1).padStart(2,'0')}-${sfx}.svg`,svg(84,`
-<text x="0" y="50" class="m" font-size="13" fill="${c.muted}">/0${i+1}</text>
-<text x="56" y="53" class="i" font-size="30" letter-spacing="-.6" fill="${c.text}">${n}</text>
+<text x="0" y="50" class="m" font-size="13" fill="${c.muted}">0${i+1}</text>
+<text x="48" y="53" class="i" font-size="30" letter-spacing="-.6" fill="${c.text}">${n}</text>
 <text x="420" y="53" class="s" font-size="26" fill="${c.muted}">${esc(lang==='en'?en:no)}</text>
 <text x="1020" y="50" class="m" font-size="11" fill="${c.muted}" text-anchor="end">${st.toUpperCase()}</text>
 <rect x="1046" y="31" width="${status.length*8.6+22}" height="26" rx="13" fill="none" stroke="${c.line}"/>
