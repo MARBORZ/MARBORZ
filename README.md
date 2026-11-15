@@ -1,6 +1,6 @@
 <sub><code>MARBORZ</code> · <b>English</b> · <a href="README.no.md">Norsk</a></sub>
 
-### Amadi Masuev
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg"><img alt="Amadi Masuev — fullstack, on the way to ML engineering" src="assets/banner-dark.svg" width="100%"></picture>
 
 Fullstack developer from Porsgrunn, Norway. Writing code since December 2024, now a Vg2 IT student.
 Right now I'm sharpening the fundamentals — architecture, Python, C++ — on the way to **ML engineering**.
@@ -11,6 +11,10 @@ next       machine learning engineering
 languages  TypeScript · JavaScript · Python
 stack      React · Next.js · Node · Express · PostgreSQL · Supabase · FastAPI
 ```
+
+<p><img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,express,postgres,supabase,fastapi,tailwind,sass,vite,vercel,git&theme=dark&perline=15" alt="Stack: TypeScript, JavaScript, Python, React, Next.js, Node, Express, PostgreSQL, Supabase, FastAPI, Tailwind, Sass, Vite, Vercel, Git"></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg"><img alt="Languages across public repos" src="assets/languages-dark.svg" width="100%"></picture>
 
 **Selected work**
 
