@@ -16,12 +16,12 @@ writeFileSync(`assets/banner-${k}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" 
 <line x1="56" y1="252" x2="1144" y2="252" stroke="${c.line}"/>
 <g font-family="${mono}" font-size="13" letter-spacing="1.5" fill="${c.muted}"><text x="56" y="278">TYPESCRIPT · PYTHON · REACT · NEXT.JS · NODE</text><text x="1144" y="278" text-anchor="end" fill="${c.text}">MARBORZ.ONE</text></g>
 </svg>`);
-let x=40,bar='',rows='';
-langs.forEach(([n,v],i)=>{const w=Math.max(2,(v/total)*720);bar+=`<rect x="${x}" y="76" width="${w-2}" height="10" fill="${shades[i]}"/>`;x+=w;
-const cx=40+(i%4)*180, cy=124+Math.floor(i/4)*30;
+let x=56,bar='',rows='';
+langs.forEach(([n,v],i)=>{const w=Math.max(2,(v/total)*1088);bar+=`<rect x="${x}" y="76" width="${w-2}" height="10" fill="${shades[i]}"/>`;x+=w;
+const cx=56+i*156, cy=128;
 rows+=`<circle cx="${cx+5}" cy="${cy-5}" r="5" fill="${shades[i]}"/><text x="${cx+18}" y="${cy}" font-family="${sans}" font-size="14" fill="${c.text}">${n} <tspan fill="${c.muted}" font-family="${mono}" font-size="12">${(v/total*100).toFixed(1)}%</tspan></text>`;});
-writeFileSync(`assets/languages-${k}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" width="800" height="190" viewBox="0 0 800 190">
-<rect x=".5" y=".5" width="799" height="189" rx="10" fill="${c.bg}" stroke="${c.line}"/>
-<text x="40" y="48" font-family="${mono}" font-size="12" letter-spacing="1.5" fill="${c.muted}">LANGUAGES · PUBLIC REPOS · BY BYTES</text>
-<clipPath id="r"><rect x="40" y="76" width="720" height="10" rx="5"/></clipPath><g clip-path="url(#r)">${bar}</g>${rows}
+writeFileSync(`assets/languages-${k}.svg`,`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+<rect x=".5" y=".5" width="1199" height="169" rx="10" fill="${c.bg}" stroke="${c.line}"/>
+<text x="56" y="52" font-family="${mono}" font-size="13" letter-spacing="1.5" fill="${c.muted}">LANGUAGES · PUBLIC REPOS · BY BYTES</text>
+<clipPath id="r"><rect x="56" y="76" width="1088" height="10" rx="5"/></clipPath><g clip-path="url(#r)">${bar}</g>${rows}
 </svg>`);}
